@@ -12,7 +12,9 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		int r = 0;
-		
+		Random q = new Random();
+	int r1 =	q.nextInt(75-25)+25;
+		int r2 = q.nextInt(222+88)-222;
 		//2. Now make r random. 
 		//   Create an object of the Random class
 		//   Hint: new Random().nextInt()
@@ -25,6 +27,6 @@ public class IntroToRandom {
 
 
 		
-		System.out.println(r); 
+		System.out.println(r2); 
 	}
 }
